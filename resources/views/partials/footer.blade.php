@@ -1,0 +1,1 @@
+<footer><p style="text-align: center">--- made with &hearts; by me ---</p></footer>
