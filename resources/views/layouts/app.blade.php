@@ -9,10 +9,12 @@
 </head>
 <body>
     @include('partials/header')
+    @include('partials/jumbo')
     <main>
         @yield('content')
     </main>
     @include('partials/footer')
+    @dump($comics)
 </body>
 
 </html>

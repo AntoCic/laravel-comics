@@ -1,4 +1,12 @@
-@use "~bootstrap/scss/bootstrap";
-body{
-    background-color: green;
+@use '~bootstrap/scss/bootstrap';
+@use './partials/reset';
+@use './partials/common';
+
+.jumbo{
+    img{
+        object-fit: cover;
+        object-position: top;
+        width: 100vw;
+        height: 200px;
+    }
 }
